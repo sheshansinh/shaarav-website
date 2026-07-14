@@ -28,7 +28,7 @@ export function CredentialsSection() {
   }, [])
 
   return (
-    <section className="section page-shell credentials-section !py-16">
+    <section className="section page-shell credentials-section !py-6">
       <AnimatedSection variant="fadeUp">
         <div className="section-heading mb-10 text-center lg:text-left max-w-3xl">
           <span className="eyebrow">Certificates & Achievements</span>
