@@ -22,7 +22,8 @@ export function IntroSplit() {
             <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#d7a96b]/20 text-[#8f6330] font-bold text-sm shrink-0">2</span>
             <div>
               <h4 className="text-[1.15rem] font-bold text-[#152b23] mb-1">Connected Network</h4>
-              <p className="!mt-0 text-muted">We do more than advise. We help bring together demand, supply, financial services buyers, sellers, and investors so clients can move to an actionable path.</p>
+              <p className="!mt-0 text-muted">Success is built on access to the right opportunities and right relationships. Our connected network brings together industry expert, financial institutions, investment partners and real estate professionals to create solutions that extend beyond traditional advisory.</p>
+            <p className="!mt-2 text-muted">This collaborative ecosystem enables us to provide clients with strategic insights, trusted partnerships and access to opportunities designed to support sustainable growth and long-term value creation</p>
             </div>
           </div>
         </div>
@@ -30,7 +31,7 @@ export function IntroSplit() {
         <article
           className="image-panel image-panel--tall !min-h-[20rem] !p-6"
           style={{
-            backgroundImage: `linear-gradient(180deg, rgba(14, 28, 24, 0.2), rgba(14, 28, 24, 0.62)), url(${media.boardroom})`,
+            backgroundImage: `linear-gradient(180deg, rgba(14, 28, 24, 0.2), rgba(14, 28, 24, 0.62)), url(${media.aboutShaarav})`,
           }}
         >
           <div>

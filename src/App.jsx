@@ -21,14 +21,13 @@ import { TermsPage } from './pages/Terms/TermsPage'
 import { navItems, serviceCards, blogCards } from './constants/data'
 
 function getRouteFromHash() {
-  const raw = window.location.hash.replace(/^#\/?/, '').trim()
-  const route = raw || 'home'
-  const detailRoutes = [
-    ...serviceCards.map((item) => `service/${item.id}`),
-    ...blogCards.map((item) => `blog/${item.id}`),
-  ]
-  const validRoutes = [...navItems.map((item) => item.route), ...detailRoutes, 'privacy', 'terms']
-  return validRoutes.includes(route) ? route : 'home'
+  const raw = decodeURIComponent(window.location.hash.replace(/^#\/?/, '').trim())
+  if (!raw) return 'home'
+  if (raw.startsWith('service/') || raw.startsWith('blog/')) {
+    return raw
+  }
+  const validRoutes = [...navItems.map((item) => item.route), 'privacy', 'terms']
+  return validRoutes.includes(raw) ? raw : 'home'
 }
 
 function App() {
@@ -49,13 +48,29 @@ function App() {
   }
 
   const currentPage = useMemo(() => {
-    const matchedService = serviceCards.find((item) => `service/${item.id}` === route)
-    if (matchedService) {
+    if (route.startsWith('service/')) {
+      const targetId = route.replace('service/', '').trim().toLowerCase()
+      const matchedService =
+        serviceCards.find((item) => item.id.toLowerCase() === targetId) ||
+        (targetId === 'financial-investment' ? serviceCards[0] : null) ||
+        serviceCards.find(
+          (item) => targetId.includes(item.id.toLowerCase()) || item.id.toLowerCase().includes(targetId)
+        ) ||
+        serviceCards[0]
+
       return <ServiceDetailPage service={matchedService} onNavigate={handleNavigate} />
     }
 
-    const matchedBlog = blogCards.find((item) => `blog/${item.id}` === route)
-    if (matchedBlog) {
+    if (route.startsWith('blog/')) {
+      const targetId = route.replace('blog/', '').trim().toLowerCase()
+      const matchedBlog =
+        blogCards.find((item) => item.id.toLowerCase() === targetId) ||
+        blogCards.find(
+          (item) => targetId.includes(item.id.toLowerCase()) || item.id.toLowerCase().includes(targetId)
+        ) ||
+        blogCards[1] ||
+        blogCards[0]
+
       return <BlogDetailPage post={matchedBlog} onNavigate={handleNavigate} />
     }
 

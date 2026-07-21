@@ -5,18 +5,14 @@ export function BandSection() {
         <article className="band-card band-card--dark">
           <span className="eyebrow eyebrow--light">Vision</span>
           <p>
-            To empower individuals and families with clarity, confidence, and
-            strategic financial guidance that builds prosperity and a well-structured
-            legacy.
+            To build a globally respected multi-family office that empowers visionary families and business owners to transform wealth into lasting prosperity, purposeful impact, and multigenerational continuity.
           </p>
         </article>
 
         <article className="band-card band-card--accent">
           <span className="eyebrow">Mission</span>
           <p>
-            To offer strategic consulting, personalised coaching, and investment
-            planning that protects wealth continuity and supports generational
-            success.
+            We partner with families, founders, and business leaders to provide integrated wealth advisory that brings together strategic investments, real estate, family office management, estate planning, governance, and succession solutions. Our purpose is to preserve what has been built, unlock future opportunities, and ensure every generation inherits not only wealth, but the wisdom to sustain it.
           </p>
         </article>
       </div>

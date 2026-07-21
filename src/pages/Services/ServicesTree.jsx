@@ -17,9 +17,9 @@ export function ServicesTree({ onNavigate }) {
       ),
       children: [
         {
-          id: 'financial-investment',
-          title: 'Financial & Investment Consulting',
-          description: 'Tailored consulting for individuals and MSMEs across investment strategy, financial direction, and decision clarity.',
+          id: 'certified-mentorship-mutual-funds',
+          title: 'Certified Mentorship & Mutual Fund Distribution',
+          description: 'Combining investor education with professionally guided mutual fund distribution for individuals and families.',
           image: media.financial,
         },
         {

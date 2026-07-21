@@ -1,6 +1,7 @@
 export const media = {
   hero: 'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1800&q=80',
   boardroom: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80',
+  aboutShaarav: '/home/about-shaarav.jpg',
   financial: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
   planning: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80',
   family: 'https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=80',
@@ -23,10 +24,38 @@ export const navItems = [
 
 export const serviceCards = [
   {
-    id: 'financial-investment',
-    title: 'Financial & Investment Consulting',
-    description: 'Tailored consulting for individuals and MSMEs across investment strategy, financial direction, and decision clarity.',
+    id: 'certified-mentorship-mutual-funds',
+    title: 'Certified Mentorship & Mutual Fund Distribution',
+    description: 'Combining investor education with professionally guided mutual fund distribution to help individuals and families make informed financial decisions.',
     image: media.financial,
+    fullDescription: "Investing is not just about selecting financial products—it's about building a disciplined strategy aligned with your life goals. At Shaarav Enterprise, we combine investor education with professionally guided mutual fund distribution to help individuals and families make informed financial decisions. Our certified mentorship approach focuses on simplifying investments, improving financial awareness, and helping clients understand concepts such as asset allocation, risk management, diversification, and long-term wealth creation. Every recommendation is tailored to your financial objectives, investment horizon, and risk profile. Whether you are beginning your investment journey or looking to optimize an existing portfolio, we help you invest with clarity, confidence, and purpose.",
+    includedServices: [
+      'Goal-Based Investment Planning',
+      'Mutual Fund Distribution',
+      'Portfolio Reviews & Rebalancing',
+      'SIP & STP Planning',
+      'Retirement & Education Planning',
+      'Investor Education & Financial Mentorship',
+      'Wealth Creation Strategies',
+    ],
+    keyFocusAreas: [
+      {
+        title: 'Asset Allocation',
+        description: 'Structuring your investment strategy across asset classes aligned with your life goals and risk profile.',
+      },
+      {
+        title: 'Risk Management',
+        description: 'Protecting capital while managing portfolio volatility through disciplined risk metrics and planning.',
+      },
+      {
+        title: 'Diversification',
+        description: 'Optimizing portfolio strength and reducing concentration risks for consistent long-term growth.',
+      },
+      {
+        title: 'Long-Term Wealth Creation',
+        description: 'Building disciplined, multi-generational wealth through goal-based planning, SIP, and STP strategies.',
+      },
+    ],
   },
   {
     id: 'family-office-estate',
@@ -69,9 +98,25 @@ export const blogCards = [
   },
   {
     id: 'family-wealth-planning-practical',
-    title: 'Family Wealth Planning That Actually Feels Practical',
+    title: 'Family Office Advisory & Multi-Generational Wealth Preservation',
     category: 'Family Office',
-    summary: 'Thoughtful ways to approach continuity, structure, and intergenerational planning with more clarity.',
+    summary: 'Creating wealth is an achievement; preserving it across generations requires thoughtful planning, governance, and strategic decision-making.',
+    paragraphs: [
+      "Creating wealth is an achievement; preserving it across generations requires thoughtful planning, governance, and strategic decision-making.",
+      "A modern family office goes beyond investment management. It brings together wealth planning, estate structuring, succession planning, risk management, tax coordination, philanthropy, and strategic advisory under one integrated framework.",
+      "As financial markets evolve and family wealth becomes increasingly diversified across businesses, financial assets, and real estate, having a structured approach helps families maintain continuity, protect their legacy, and make informed decisions for future generations.",
+      "At Shaarav Enterprise, we believe every family's financial journey is unique. Our approach is centered on understanding your long-term vision and helping coordinate strategies that support sustainable wealth creation and preservation through every stage of life.",
+    ],
+    keyFocusAreas: [
+      'Wealth Preservation',
+      'Succession & Legacy Planning',
+      'Portfolio Strategy & Asset Allocation',
+      'Risk Management',
+      'Family Governance',
+      'Intergenerational Wealth Transfer',
+      'Long-Term Financial Stewardship',
+    ],
+    conclusion: 'Because true wealth is measured not only by what you build today, but by what you successfully preserve for generations to come.',
   },
   {
     id: 'real-estate-investment-intent',
