@@ -49,7 +49,7 @@ export function FounderPage() {
         eyebrow="Founder"
         title="A journey built from curiosity, hands-on work, and steady professional growth."
         text="From early financial services exposure to structured financial consulting, the founder story behind Shaarav Enterprise is practical, layered, and deeply experienced."
-        image={media.founder}
+        image={media.boardroom}
       />
       
       {/* Editorial Profile Section */}
@@ -58,10 +58,13 @@ export function FounderPage() {
           {/* Visual Profile on Left */}
           <div className="lg:col-span-5 relative group">
             <div className="absolute inset-0 bg-[#d7a96b]/10 rounded-[2.5rem] rotate-2 transition-transform duration-500 group-hover:rotate-1"></div>
-            <div 
-              className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden bg-cover bg-center shadow-[0_30px_70px_rgba(20,35,31,0.12)] border border-[#14231f]/10"
-              style={{ backgroundImage: `url(${media.founder})` }}
-            >
+            <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden bg-[#14231f] shadow-[0_30px_70px_rgba(20,35,31,0.12)] border border-[#14231f]/10">
+              <img 
+                src={media.founder} 
+                onError={(e) => { e.currentTarget.src = '/founder/WhatsApp%20Image%202026-07-21%20at%208.22.21%20AM.jpeg' }}
+                alt="Shaarav Enterprise Founder" 
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              />
               {/* Overlay Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-6 rounded-[1.8rem] bg-[#14231f]/90 text-white backdrop-blur-md border border-white/10 shadow-lg">
                 <span className="text-xs font-bold uppercase tracking-widest text-[#d7a96b]">Company Lead</span>
