@@ -12,7 +12,7 @@ export function HeroSection() {
       <div
         className="hero__media"
         style={{
-          backgroundImage: `linear-gradient(90deg, rgba(8, 16, 15, 0.82) 0%, rgba(8, 16, 15, 0.58) 42%, rgba(8, 16, 15, 0.22) 100%), url(${media.hero})`,
+          backgroundImage: `linear-gradient(90deg, rgba(26, 72, 100, 0.85) 0%, rgba(26, 72, 100, 0.6) 45%, rgba(26, 72, 100, 0.2) 100%), url(${media.hero})`,
         }}
       >
         <div className="hero__overlay" />

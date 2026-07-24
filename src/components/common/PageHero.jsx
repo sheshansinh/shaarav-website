@@ -4,7 +4,7 @@ export function PageHero({ eyebrow, title, text, image }) {
       <div
         className="page-hero__media"
         style={{
-          backgroundImage: `linear-gradient(180deg, rgba(11, 22, 19, 0.16), rgba(11, 22, 19, 0.68)), url(${image})`,
+          backgroundImage: `linear-gradient(180deg, rgba(26, 72, 100, 0.15), rgba(26, 72, 100, 0.75)), url(${image})`,
         }}
       />
       <div className="page-hero__content">

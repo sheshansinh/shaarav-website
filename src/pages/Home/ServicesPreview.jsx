@@ -16,7 +16,7 @@ export function ServicesPreview({ onNavigate }) {
             key={service.title}
             className="service-card !min-h-[20rem]"
             style={{
-              backgroundImage: `linear-gradient(180deg, rgba(9, 18, 16, 0.08), rgba(9, 18, 16, 0.86)), url(${service.image})`,
+              backgroundImage: `linear-gradient(180deg, rgba(26, 72, 100, 0.1), rgba(26, 72, 100, 0.9)), url(${service.image})`,
             }}
           >
             <div className="service-card__content !p-6">

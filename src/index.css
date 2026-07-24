@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 @theme {
-  --color-text: #152b23;
-  --color-muted: #5f6f68;
-  --color-surface: #fffaf4;
-  --color-accent: #d7a96b;
-  --color-accent-strong: #8f6330;
-  --shadow-soft: 0 30px 60px rgba(48, 43, 24, 0.08);
-  --font-display: 'Instrument Serif', serif;
+  --color-primary-navy: #1A4864;
+  --color-medium-blue: #5DA7D2;
+  --color-light-blue: #CAE8FF;
+  --color-accent-yellow: #FFDE59;
+  --color-neutral-grey: #DBDBDC;
+  --color-dark-grey: #45484B;
+  --color-pure-white: #FFFFFF;
+  --color-very-light-grey: #F8F9FA;
+
+  /* Theme semantic mappings */
+  --color-text: #45484B;
+  --color-muted: #5A6065;
+  --color-surface: #FFFFFF;
+  --color-accent: #FFDE59;
+
+  --font-display: 'The Seasons', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', sans-serif;
 }
 
 :root {
-  font-family: 'Manrope', sans-serif;
-  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
   font-weight: 400;
-  color: var(--color-text);
-  background:
-    radial-gradient(circle at top, rgba(215, 182, 132, 0.18), transparent 28%),
-    linear-gradient(180deg, #f6f1e9 0%, #f4eee5 45%, #efe8dc 100%);
+  color: #45484B;
+  background-color: #FFFFFF;
   color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +42,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
 }
 
 * {
@@ -41,14 +51,9 @@ body {
 }
 
 a {
-  transition:
-    color 180ms ease,
-    opacity 180ms ease,
-    transform 180ms ease;
-}
-
-a:hover {
-  opacity: 0.92;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -63,3 +68,4 @@ p {
 #root {
   min-height: 100vh;
 }
+

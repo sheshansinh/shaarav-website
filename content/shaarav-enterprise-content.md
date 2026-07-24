@@ -16,7 +16,7 @@ We are a financial services consulting agency located in Ahmedabad, India.
 
 Financial Services owner behind the agency has experience of over 10 years in this sphere.
 
-Greetings from Shaarav Enterprise. We here at Shaarav cater to single or micro enterprise or industry owners with the best of simplified and structured solutions with the help of technology and human efforts.
+Greetings from Shaarav Enterprise. We here at Shaarav cater to sole proprietors and micro-enterprise owners through simplified, structured solutions powered by technology and human effort.
 
 We not only bring together the demand side but also the supply side of financial services, while also giving routes to meet these needs. We are a unique platform where you can meet your potential financial services buyer, seller, or investor for growth and interact with them directly. The rest of the worries you can leave to us.
 
@@ -80,14 +80,14 @@ With understanding of Lean Six Sigma Green Belt and a Certified Core Strategy Pr
 
 ## Contact
 
-Shaarav Enterprise  
+Shaarav Enterprise (Registered Office)  
 B7-1601, Waterlily, Adani Shantigram, Nr Vaishnodevi Circle, Ahmedabad - 382421
 
-Phone: +91 9925528012  
+Phone: +91 99255 28021  
 Email: info@shaaraventerprise.com
 
 ## Footer Copy
 
-We here at Shaarav cater to single or micro enterprise or industry owners with simplified and structured solutions with the help of technology and human efforts.
+We here at Shaarav cater to sole proprietors and micro-enterprise owners through simplified, structured solutions powered by technology and human effort.
 
 Copyright © 2026 Shaarav Enterprise. All Rights Reserved.
