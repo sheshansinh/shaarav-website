@@ -12,6 +12,7 @@ import { FinalCTA } from './FinalCTA'
 import { WhyChooseUs } from './WhyChooseUs'
 import { StrategicAdvantage } from './StrategicAdvantage'
 import { Testimonials } from './Testimonials'
+import { FAQSection } from './FAQSection'
 
 export function HomePage({ onNavigate }) {
   return (
@@ -47,6 +48,7 @@ export function HomePage({ onNavigate }) {
         ]}
       />
       
+      <FAQSection onNavigate={onNavigate} />
       <Testimonials />
       <FinalCTA onNavigate={onNavigate} />
     </>

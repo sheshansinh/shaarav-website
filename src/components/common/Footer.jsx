@@ -18,7 +18,7 @@ export function Footer({ onNavigate }) {
               onClick={() => onNavigate('home')} 
               type="button"
             >
-              <img src="/logo.png" alt="Shaarav Logo" className="footer__logo w-14 h-auto" />
+              <img src="/logo.png" alt="Shaarav Logo" className="footer__logo" />
               <div className="brand__copy text-left">
                 <p className="brand__name !text-pure-white m-0 text-[1rem] font-bold tracking-[0.05em] uppercase">Shaarav Enterprise</p>
                 <p className="brand__tag !text-light-blue m-0 text-[0.8rem] font-medium leading-tight">The Architecture of Wealth and Legacy</p>
