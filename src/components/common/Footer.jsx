@@ -113,6 +113,29 @@ export function Footer({ onNavigate }) {
 
         </div>
 
+        {/* Certifications & Compliance Section */}
+        <div className="border-t border-pure-white/10 pt-8 pb-8 mb-8 text-[14px]">
+          <h5 className="text-[12px] font-bold uppercase tracking-wider text-pure-white/40 mb-6">Certifications & Compliance</h5>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="flex flex-col gap-1 lg:border-r lg:border-pure-white/10 lg:pr-6">
+              <span className="font-semibold text-pure-white/90">Certified Lean Six Sigma Green Belt</span>
+              <span className="text-light-blue/60 text-[13px]">Credential ID: G201813888</span>
+            </div>
+            <div className="flex flex-col gap-1 lg:border-r lg:border-pure-white/10 lg:pr-6">
+              <span className="font-semibold text-pure-white/90">Certified Lean Six Sigma Black Belt</span>
+              <span className="text-light-blue/60 text-[13px]">Credential ID: B202010959</span>
+            </div>
+            <div className="flex flex-col gap-1 lg:border-r lg:border-pure-white/10 lg:pr-6">
+              <span className="font-semibold text-pure-white/90">Executive Program in Wealth Management</span>
+              <span className="text-light-blue/60 text-[13px]">Credential ID: EPWM/July23/414</span>
+            </div>
+            <div className="flex flex-col gap-1">
+              <span className="font-semibold text-pure-white/90">GST Number</span>
+              <span className="text-light-blue/60 text-[13px] font-mono tracking-wider">24ADIPJ8955G1ZA</span>
+            </div>
+          </div>
+        </div>
+
         {/* Footer Bottom Bar */}
         <div className="border-t border-pure-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[14px] text-light-blue/60 font-sans">
           <p className="m-0">
@@ -120,7 +143,7 @@ export function Footer({ onNavigate }) {
           </p>
           <div className="flex gap-6">
             <a href="#/privacy" className="hover:text-accent-yellow transition-colors duration-200 text-light-blue/60">Privacy Policy</a>
-            <a href="#/terms" className="hover:text-accent-yellow transition-colors duration-200 text-light-blue/60">Terms of Service</a>
+            <a href="#/terms-of-use" className="hover:text-accent-yellow transition-colors duration-200 text-light-blue/60">Terms of Use</a>
           </div>
         </div>
       </div>

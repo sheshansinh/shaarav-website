@@ -15,7 +15,7 @@ import { ContactPage } from './pages/Contact/ContactPage'
 import { ServiceDetailPage } from './pages/ServiceDetail/ServiceDetailPage'
 import { BlogDetailPage } from './pages/BlogDetail/BlogDetailPage'
 import { PrivacyPage } from './pages/Privacy/PrivacyPage'
-import { TermsPage } from './pages/Terms/TermsPage'
+import { TermsUsePage } from './pages/Terms/TermsUsePage'
 
 // Data
 import { navItems, serviceCards, blogCards } from './constants/data'
@@ -26,7 +26,7 @@ function getRouteFromHash() {
   if (raw.startsWith('service/') || raw.startsWith('blog/')) {
     return raw
   }
-  const validRoutes = [...navItems.map((item) => item.route), 'privacy', 'terms']
+  const validRoutes = [...navItems.map((item) => item.route), 'privacy', 'terms-of-use']
   return validRoutes.includes(raw) ? raw : 'home'
 }
 
@@ -87,8 +87,8 @@ function App() {
         return <ContactPage />
       case 'privacy':
         return <PrivacyPage />
-      case 'terms':
-        return <TermsPage />
+      case 'terms-of-use':
+        return <TermsUsePage />
       default:
         return <HomePage onNavigate={handleNavigate} />
     }
