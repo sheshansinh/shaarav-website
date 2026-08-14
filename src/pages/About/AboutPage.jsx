@@ -2,6 +2,7 @@ import { PageHero } from '../../components/common/PageHero'
 import { InfoTiles } from '../Home/InfoTiles'
 import { media } from '../../constants/data'
 import { AboutPhilosophy } from './AboutPhilosophy'
+import { OurTeam } from './OurTeam'
 import { Testimonials } from '../Home/Testimonials'
 
 export function AboutPage() {
@@ -100,6 +101,9 @@ export function AboutPage() {
           <blockquote>"Let us help you find the right path for your needs and support you in making confident decisions."</blockquote>
         </div>
       </section>
+
+      {/* Our Team section (Very Light Grey background) */}
+      <OurTeam />
 
       {/* Testimonials section (Very Light Grey is already within testimonials) */}
       <Testimonials />
