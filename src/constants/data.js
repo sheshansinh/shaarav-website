@@ -152,21 +152,15 @@ export const contactCards = [
 
 export const testimonials = [
   {
-    quote: "Shaarav Enterprise transformed our family office governance. They brought incredible structure and clarity to our legacy planning, ensuring a smooth path for the next generation.",
-    author: "Rajesh Mehta",
-    role: "Managing Director, Mehta Group (HNI Family)",
-    location: "Ahmedabad"
+    quote: "I've been working with Shruti and Shaarav Enterprise for a while now, and what I value most is the sense of trust and personal attention she brings to managing my investments. She takes the time to understand what I'm trying to achieve, is always accessible when I need clarity, and never makes financial decisions feel unnecessarily complicated. For me, that combination of sound advice, responsiveness and genuine involvement has made a real difference. Thank you Shruti and team, and wishing Shaarav Enterprise continued growth!",
+    author: "Ms. Kruti Arora",
+    role: "Investment Client",
+    location: "Shaarav Community"
   },
   {
-    quote: "As a micro-enterprise owner, I struggled with daily financial clarity. Shaarav provided simplified, technology-driven solutions that brought discipline to our cash flow and decision-making.",
-    author: "Ananya Sharma",
-    role: "Founder, Sharma Tech & Crafts",
-    location: "Pune"
-  },
-  {
-    quote: "Their real estate investment advisory is grounded and opportunity-led. They helped us cut through the noise and purchase commercial properties with confidence.",
-    author: "Vikram Malhotra",
-    role: "Private Investor",
-    location: "Mumbai"
+    quote: "I have taken Shaarav Enterprise service for financial investment and portfolio management since past 1.5 years and I really appreciate their efforts to give me a detailed understanding in a very simple approach — even for a senior citizen like me. They helped me understand the need to create a succession plan for smooth transitions of all the wealth created to my kids. I am absolutely more than satisfied with their patient response to all my queries and doubts. Thank you Shruti and team Shaarav Enterprise for your all round customised services.",
+    author: "Rajnikant Mehta",
+    role: "Portfolio Management Client, Senior Investor",
+    location: "Shaarav Community"
   }
 ]
