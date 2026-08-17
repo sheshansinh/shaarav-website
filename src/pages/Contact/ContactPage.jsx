@@ -70,6 +70,8 @@ export function ContactPage() {
               </div>
               <p className="text-[16px] text-dark-grey mb-2 font-sans">Direct line for immediate assistance</p>
               <a href="tel:+919925528021" className="text-[20px] font-sans font-bold text-primary-navy hover:text-medium-blue transition-colors tracking-wide">+91 99255 28021</a>
+              <p className="text-[14px] text-dark-grey/70 mt-3 mb-1 font-sans">Advisory Manager — Varoni Vidhani</p>
+              <a href="tel:+919316741835" className="text-[18px] font-sans font-bold text-primary-navy hover:text-medium-blue transition-colors tracking-wide">+91 93167 41835</a>
             </article>
 
             {/* Email Card */}

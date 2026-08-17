@@ -37,8 +37,8 @@ function InitialsAvatar({ name, className = '' }) {
 const ceo = {
   name: 'Shruti Jobanputra',
   role: 'Founder & Director',
-  company: 'Shaarav Global Exim LLP',
-  bio: 'Shruti is the Founder & Director of Shaarav Global Exim LLP, a merchant export company connecting global buyers with premium Indian spices, tea, and coffee through ethical sourcing, traceability, and quality assurance. She also brings over a decade of experience in financial investment advisory and is focused on building trusted, long-term global business relationships.',
+  company: 'Shaarav Enterprise',
+  bio: 'Shruti Mehta Jobanputra is the Founder of Shaarav Enterprise, where she advises clients on strategic wealth creation, investment planning, real estate advisory, and legacy preservation. With over 10+ years of cross-functional business experience, she works closely with individuals, business owners, and families to develop sustainable financial strategies aligned with their long-term aspirations. Recognized for her client-centric approach and entrepreneurial vision, she is committed to creating lasting financial value through trusted advisory.',
   photo: '/ourteam/ceo.jpeg',
   linkedin: 'http://www.linkedin.com/in/shrrutijobanputra001827hcgjt',
 };
