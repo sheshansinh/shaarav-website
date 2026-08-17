@@ -7,7 +7,7 @@ import { ProcessShowcase } from './ProcessShowcase'
 import { SectorMosaic } from './SectorMosaic'
 import { InfoTiles } from './InfoTiles'
 import { FounderTeaser } from './FounderTeaser'
-import { CredentialsSection } from './CredentialsSection'
+// import { CredentialsSection } from './CredentialsSection'
 import { FinalCTA } from './FinalCTA'
 import { WhyChooseUs } from './WhyChooseUs'
 import { StrategicAdvantage } from './StrategicAdvantage'
@@ -36,7 +36,7 @@ export function HomePage({ onNavigate }) {
       />
       
       <FounderTeaser onNavigate={onNavigate} />
-      <CredentialsSection />
+      {/* <CredentialsSection /> */}
       
       <StrategicAdvantage
         eyebrow="Strategic Advantage"
