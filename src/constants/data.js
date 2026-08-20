@@ -128,6 +128,13 @@ export const blogCards = [
 
 export const contactCards = [
   {
+    title: 'WhatsApp',
+    text: 'Chat on WhatsApp',
+    href: 'https://wa.me/919925528021?text=Hello%20Shaarav%20Enterprise!%20I%20would%20like%20to%20inquire%20about%20your%20services.',
+    icon: 'whatsapp',
+    colorClass: 'social-card--whatsapp',
+  },
+  {
     title: 'Instagram',
     text: 'Drop a DM',
     href: 'https://www.instagram.com/shaarav_ent24/',

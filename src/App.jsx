@@ -4,6 +4,7 @@ import './App.css'
 // Common Components
 import { Header } from './components/common/Header'
 import { Footer } from './components/common/Footer'
+import { WhatsAppFloat } from './components/common/WhatsAppFloat'
 
 // Pages
 import { HomePage } from './pages/Home/HomePage'
@@ -99,6 +100,7 @@ function App() {
       <Header route={route} onNavigate={handleNavigate} />
       <main>{currentPage}</main>
       <Footer onNavigate={handleNavigate} />
+      <WhatsAppFloat />
     </div>
   )
 }

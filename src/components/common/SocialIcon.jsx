@@ -31,6 +31,12 @@ export function SocialIcon({ type }) {
     )
   }
 
+  if (type === 'whatsapp') {
+    return (
+      <img src="/whatsappicon/whatsapp.png" alt="WhatsApp" className="w-full h-full object-contain" />
+    )
+  }
+
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="10" fill="#1877f2" />

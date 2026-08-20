@@ -34,7 +34,7 @@ export function ContactPage() {
       {/* Contact Cards Row (White background) */}
       <section className="section bg-pure-white">
         <div className="page-shell">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
             {/* Visit Card */}
             <article className="p-8 border border-neutral-grey rounded-[20px] bg-pure-white shadow-[0_20px_60px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_70px_rgba(26,72,100,0.08)] flex flex-col items-start group">
@@ -72,6 +72,34 @@ export function ContactPage() {
               <a href="tel:+919925528021" className="text-[20px] font-sans font-bold text-primary-navy hover:text-medium-blue transition-colors tracking-wide">+91 99255 28021</a>
               <p className="text-[14px] text-dark-grey/70 mt-3 mb-1 font-sans">Advisory Manager — Varoni Vidhani</p>
               <a href="tel:+919316741835" className="text-[18px] font-sans font-bold text-primary-navy hover:text-medium-blue transition-colors tracking-wide">+91 93167 41835</a>
+            </article>
+
+            {/* WhatsApp Card */}
+            <article className="p-8 border border-neutral-grey rounded-[20px] bg-pure-white shadow-[0_20px_60px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_70px_rgba(26,72,100,0.08)] flex flex-col items-start group">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-[14px] bg-light-blue text-primary-navy border border-neutral-grey flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shrink-0 p-2.5">
+                  <img src="/whatsappicon/whatsapp.png" alt="WhatsApp" className="w-full h-full object-contain" />
+                </div>
+                <h3 className="text-[20px] font-sans font-bold text-primary-navy m-0">WhatsApp Us</h3>
+              </div>
+              <p className="text-[16px] text-dark-grey mb-2 font-sans">Quick message for instant response</p>
+              <a 
+                href="https://wa.me/919925528021?text=Hello%20Shaarav%20Enterprise!%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[20px] font-sans font-bold text-primary-navy hover:text-medium-blue transition-colors tracking-wide"
+              >
+                +91 99255 28021
+              </a>
+              <p className="text-[14px] text-dark-grey/70 mt-3 mb-1 font-sans">Chat directly with our advisors</p>
+              <a 
+                href="https://wa.me/919925528021?text=Hello%20Shaarav%20Enterprise!%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[16px] font-sans font-semibold text-medium-blue hover:text-primary-navy transition-colors mt-2"
+              >
+                Start Chat &rarr;
+              </a>
             </article>
 
             {/* Email Card */}
